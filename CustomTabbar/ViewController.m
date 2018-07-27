@@ -20,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //new
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:(58)/255.0f green:(166)/255.0f blue:(239)/255.0f alpha:(1)];
     self.navigationController.navigationBar.translucent = NO;
     UIButton *btn1 = [UIButton buttonWithType:(UIButtonTypeCustom)];
