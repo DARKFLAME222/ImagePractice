@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0231C82220BFE400009D29B1 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0231C82120BFE400009D29B1 /* ViewController2.m */; };
+		0231C82520BFE413009D29B1 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0231C82420BFE413009D29B1 /* ViewController1.m */; };
+		0231C82820BFE41D009D29B1 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0231C82720BFE41D009D29B1 /* ViewController3.m */; };
+		02445C9820E4962E00F82042 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02445C9720E4962E00F82042 /* DrawView.m */; };
+		02445C9B20E4B9A500F82042 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02445C9A20E4B9A500F82042 /* DrawViewController.m */; };
+		02445C9F20E61DE700F82042 /* t80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 02445C9E20E61DE700F82042 /* t80x80.png */; };
+		02445CA220EB282A00F82042 /* HandleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 02445CA120EB282A00F82042 /* HandleImage.m */; };
+		0279B36320CFA76500DF1851 /* ZKSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0279B36120CFA76400DF1851 /* ZKSDK.bundle */; };
+		0279B36420CFA76500DF1851 /* ZKSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0279B36220CFA76400DF1851 /* ZKSDK.framework */; };
 		02BAC41F20B6933F00E8E36E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BAC41E20B6933F00E8E36E /* AppDelegate.m */; };
 		02BAC42220B6933F00E8E36E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BAC42120B6933F00E8E36E /* ViewController.m */; };
 		02BAC42520B6933F00E8E36E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BAC42320B6933F00E8E36E /* Main.storyboard */; };
@@ -15,6 +24,14 @@
 		02BAC42D20B6934A00E8E36E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BAC42C20B6934A00E8E36E /* main.m */; };
 		02BAC43720B6934A00E8E36E /* CustomTabbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BAC43620B6934A00E8E36E /* CustomTabbarTests.m */; };
 		02BAC44220B6934B00E8E36E /* CustomTabbarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BAC44120B6934B00E8E36E /* CustomTabbarUITests.m */; };
+		02BAC45120B693E600E8E36E /* NewTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BAC45020B693E600E8E36E /* NewTabbar.m */; };
+		02F55CDF20C1332D00753723 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F55CD420C1332C00753723 /* AFURLResponseSerialization.m */; };
+		02F55CE020C1332D00753723 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F55CD520C1332C00753723 /* AFHTTPSessionManager.m */; };
+		02F55CE120C1332D00753723 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F55CD720C1332C00753723 /* AFURLSessionManager.m */; };
+		02F55CE220C1332D00753723 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F55CD820C1332C00753723 /* AFURLRequestSerialization.m */; };
+		02F55CE320C1332D00753723 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F55CDA20C1332C00753723 /* AFNetworkReachabilityManager.m */; };
+		02F55CE420C1332D00753723 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F55CDB20C1332C00753723 /* AFSecurityPolicy.m */; };
+		02F55CE520C1332D00753723 /* LMHttpPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F55CDE20C1332C00753723 /* LMHttpPost.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0231C82020BFE400009D29B1 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		0231C82120BFE400009D29B1 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		0231C82320BFE413009D29B1 /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		0231C82420BFE413009D29B1 /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		0231C82620BFE41D009D29B1 /* ViewController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		0231C82720BFE41D009D29B1 /* ViewController3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		02445C9620E4962E00F82042 /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		02445C9720E4962E00F82042 /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		02445C9920E4B9A500F82042 /* DrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		02445C9A20E4B9A500F82042 /* DrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		02445C9E20E61DE700F82042 /* t80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = t80x80.png; path = Assets.xcassets/t80x80.imageset/t80x80.png; sourceTree = "<group>"; };
+		02445CA020EB282A00F82042 /* HandleImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandleImage.h; sourceTree = "<group>"; };
+		02445CA120EB282A00F82042 /* HandleImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandleImage.m; sourceTree = "<group>"; };
+		0279B36120CFA76400DF1851 /* ZKSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZKSDK.bundle; sourceTree = "<group>"; };
+		0279B36220CFA76400DF1851 /* ZKSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZKSDK.framework; sourceTree = "<group>"; };
 		02BAC41A20B6933F00E8E36E /* CustomTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02BAC41D20B6933F00E8E36E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		02BAC41E20B6933F00E8E36E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +83,23 @@
 		02BAC43D20B6934B00E8E36E /* CustomTabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02BAC44120B6934B00E8E36E /* CustomTabbarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabbarUITests.m; sourceTree = "<group>"; };
 		02BAC44320B6934B00E8E36E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02BAC44F20B693E600E8E36E /* NewTabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewTabbar.h; sourceTree = "<group>"; };
+		02BAC45020B693E600E8E36E /* NewTabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewTabbar.m; sourceTree = "<group>"; };
+		02F55CD020C1332C00753723 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		02F55CD120C1332C00753723 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		02F55CD220C1332C00753723 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		02F55CD320C1332C00753723 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		02F55CD420C1332C00753723 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		02F55CD520C1332C00753723 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		02F55CD620C1332C00753723 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		02F55CD720C1332C00753723 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		02F55CD820C1332C00753723 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		02F55CD920C1332C00753723 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		02F55CDA20C1332C00753723 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		02F55CDB20C1332C00753723 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		02F55CDC20C1332C00753723 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		02F55CDD20C1332C00753723 /* LMHttpPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMHttpPost.h; sourceTree = "<group>"; };
+		02F55CDE20C1332C00753723 /* LMHttpPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMHttpPost.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0279B36420CFA76500DF1851 /* ZKSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +128,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02445C9D20E61DD400F82042 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				02445C9E20E61DE700F82042 /* t80x80.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
 		02BAC41120B6933F00E8E36E = {
 			isa = PBXGroup;
 			children = (
@@ -101,15 +159,35 @@
 		02BAC41C20B6933F00E8E36E /* CustomTabbar */ = {
 			isa = PBXGroup;
 			children = (
+				02445C9D20E61DD400F82042 /* image */,
 				02BAC41D20B6933F00E8E36E /* AppDelegate.h */,
 				02BAC41E20B6933F00E8E36E /* AppDelegate.m */,
 				02BAC42020B6933F00E8E36E /* ViewController.h */,
 				02BAC42120B6933F00E8E36E /* ViewController.m */,
+				02445C9620E4962E00F82042 /* DrawView.h */,
+				02445C9720E4962E00F82042 /* DrawView.m */,
+				02445CA020EB282A00F82042 /* HandleImage.h */,
+				02445CA120EB282A00F82042 /* HandleImage.m */,
+				02445C9920E4B9A500F82042 /* DrawViewController.h */,
+				02445C9A20E4B9A500F82042 /* DrawViewController.m */,
+				02F55CCF20C1332C00753723 /* AFNetworking */,
+				02F55CDD20C1332C00753723 /* LMHttpPost.h */,
+				02F55CDE20C1332C00753723 /* LMHttpPost.m */,
+				0231C82320BFE413009D29B1 /* ViewController1.h */,
+				0231C82420BFE413009D29B1 /* ViewController1.m */,
+				0231C82020BFE400009D29B1 /* ViewController2.h */,
+				0231C82120BFE400009D29B1 /* ViewController2.m */,
+				0231C82620BFE41D009D29B1 /* ViewController3.h */,
+				0231C82720BFE41D009D29B1 /* ViewController3.m */,
+				02BAC44F20B693E600E8E36E /* NewTabbar.h */,
+				02BAC45020B693E600E8E36E /* NewTabbar.m */,
 				02BAC42320B6933F00E8E36E /* Main.storyboard */,
 				02BAC42620B6934A00E8E36E /* Assets.xcassets */,
 				02BAC42820B6934A00E8E36E /* LaunchScreen.storyboard */,
 				02BAC42B20B6934A00E8E36E /* Info.plist */,
 				02BAC42C20B6934A00E8E36E /* main.m */,
+				0279B36120CFA76400DF1851 /* ZKSDK.bundle */,
+				0279B36220CFA76400DF1851 /* ZKSDK.framework */,
 			);
 			path = CustomTabbar;
 			sourceTree = "<group>";
@@ -130,6 +208,26 @@
 				02BAC44320B6934B00E8E36E /* Info.plist */,
 			);
 			path = CustomTabbarUITests;
+			sourceTree = "<group>";
+		};
+		02F55CCF20C1332C00753723 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				02F55CD020C1332C00753723 /* AFSecurityPolicy.h */,
+				02F55CD120C1332C00753723 /* AFNetworkReachabilityManager.h */,
+				02F55CD220C1332C00753723 /* AFURLSessionManager.h */,
+				02F55CD320C1332C00753723 /* AFURLRequestSerialization.h */,
+				02F55CD420C1332C00753723 /* AFURLResponseSerialization.m */,
+				02F55CD520C1332C00753723 /* AFHTTPSessionManager.m */,
+				02F55CD620C1332C00753723 /* AFURLResponseSerialization.h */,
+				02F55CD720C1332C00753723 /* AFURLSessionManager.m */,
+				02F55CD820C1332C00753723 /* AFURLRequestSerialization.m */,
+				02F55CD920C1332C00753723 /* AFNetworking.h */,
+				02F55CDA20C1332C00753723 /* AFNetworkReachabilityManager.m */,
+				02F55CDB20C1332C00753723 /* AFSecurityPolicy.m */,
+				02F55CDC20C1332C00753723 /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +336,8 @@
 				02BAC42A20B6934A00E8E36E /* LaunchScreen.storyboard in Resources */,
 				02BAC42720B6934A00E8E36E /* Assets.xcassets in Resources */,
 				02BAC42520B6933F00E8E36E /* Main.storyboard in Resources */,
+				0279B36320CFA76500DF1851 /* ZKSDK.bundle in Resources */,
+				02445C9F20E61DE700F82042 /* t80x80.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +362,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02BAC45120B693E600E8E36E /* NewTabbar.m in Sources */,
 				02BAC42220B6933F00E8E36E /* ViewController.m in Sources */,
+				0231C82520BFE413009D29B1 /* ViewController1.m in Sources */,
+				02F55CE020C1332D00753723 /* AFHTTPSessionManager.m in Sources */,
+				0231C82220BFE400009D29B1 /* ViewController2.m in Sources */,
+				02F55CE120C1332D00753723 /* AFURLSessionManager.m in Sources */,
 				02BAC42D20B6934A00E8E36E /* main.m in Sources */,
+				02F55CE220C1332D00753723 /* AFURLRequestSerialization.m in Sources */,
 				02BAC41F20B6933F00E8E36E /* AppDelegate.m in Sources */,
+				02F55CE420C1332D00753723 /* AFSecurityPolicy.m in Sources */,
+				02F55CDF20C1332D00753723 /* AFURLResponseSerialization.m in Sources */,
+				02F55CE320C1332D00753723 /* AFNetworkReachabilityManager.m in Sources */,
+				02445C9B20E4B9A500F82042 /* DrawViewController.m in Sources */,
+				02F55CE520C1332D00753723 /* LMHttpPost.m in Sources */,
+				0231C82820BFE41D009D29B1 /* ViewController3.m in Sources */,
+				02445C9820E4962E00F82042 /* DrawView.m in Sources */,
+				02445CA220EB282A00F82042 /* HandleImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +548,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CustomTabbar",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = CustomTabbar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +569,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CustomTabbar",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = CustomTabbar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
